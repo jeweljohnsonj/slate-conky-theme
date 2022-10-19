@@ -1,5 +1,0 @@
-${if_running spotify}${goto 24}${color1}--( ${color green}阮${color1} )-- ${exec /bin/bash ~/.config/conky/slate-conky/scripts/status.sh}
-${goto 24}${color1}Title:    ${color2}${exec /bin/bash ~/.config/conky/slate-conky/scripts/title.sh}
-${goto 24}${color1}Album:    ${color2}${exec /bin/bash ~/.config/conky/slate-conky/scripts/album.sh}
-${goto 24}${color1}Artist:   ${color2}${exec /bin/bash ~/.config/conky/slate-conky/scripts/artist.sh}${endif}
-${goto 24}${color2}______________________________________________
