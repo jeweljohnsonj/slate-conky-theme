@@ -16,11 +16,12 @@ a simpel conky config!
 #### Setup
 ```shell
 $ mkdir ~/.config/conky
+$ mkdir ~/.fonts
 $ cd ~./config/conky
 $ git clone https://github.com/TheDucky/slate-conky-theme.git
+$ cp fonts/Roboto\ Mono\ Nerd\ Font\ Complete.ttf ~/.fonts
 $ conky -c ~/.config/conky/slate-conky-theme/slate-conky.conf
-```
-
+``` 
 
 #### Set conky as a startup application (automatically start on boot)
 - create a new file `slate-conky.desktop` in `~/.config/autostart/`
