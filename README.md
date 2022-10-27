@@ -17,7 +17,7 @@ a simpel conky config!
 ```shell
 $ mkdir ~/.config/conky
 $ mkdir ~/.fonts
-$ cd ~./config/conky
+$ cd ~/.config/conky
 $ git clone https://github.com/TheDucky/slate-conky-theme.git
 $ cp fonts/Roboto\ Mono\ Nerd\ Font\ Complete.ttf ~/.fonts
 $ conky -c ~/.config/conky/slate-conky-theme/slate-conky.conf
