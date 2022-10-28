@@ -28,7 +28,7 @@ $ conky -c ~/.config/conky/slate-conky-theme/slate-conky.conf
 
 ```desktop
 [Desktop Entry]
-Exec=conky -c /home/$USER/config/conky/slate-conky-theme/slate-conky.conf
+Exec=conky -c /home/$USER/.config/conky/slate-conky-theme/slate-conky.conf
 Name=slate-conky
 Type=Application
 ```
